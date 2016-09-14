@@ -1,0 +1,61 @@
+/*
+ *CSE 154 AD
+ *JIUN-CHENG WANG
+ *HW4
+ *fifteen.css
+*/
+
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 400px;
+	vertical-align: middle;
+}
+
+/*below for js use*/
+
+.puzzle {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	font-size: 40pt;
+	text-align: center;
+	line-height: 90px;
+	vertical-align: middle;
+	border: 5px solid black;
+	background-image: url("background.jpg");
+}
+
+.puzzle:hover {
+	cursor: default;
+}
+
+.hoverOn:hover{
+	color: red;
+	border-color: red;
+	cursor: pointer;
+}
+
+.win, .statics {
+	font-size: 20pt;
+}
+
+.win {
+	font-size: 20pt;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+.statics {
+	display: inline-block;
+	font-weight: bold;
+}
