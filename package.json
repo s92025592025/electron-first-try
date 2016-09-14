@@ -1,8 +1,23 @@
 {
-	"name" :"electron-first-try",
-	"version": "1.0.0",
-	"main": "main.js",
-	"scripts": {
-    "start": "electron ."
-  }
+  "name": "electron-first-try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "electron-packager": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s92025592025/electron-first-try.git"
+  },
+  "author": "Daniel Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s92025592025/electron-first-try/issues"
+  },
+  "homepage": "https://github.com/s92025592025/electron-first-try#readme"
 }
